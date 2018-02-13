@@ -1,0 +1,16 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "helloworld-webpart-client-side-solution",
+    "id": "e4e62bcc-612d-4980-ad66-715d1c407e9a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      { "resource": "Microsoft Graph", "scope": "User.Read" },
+      { "resource": "pnp-api-aad", "scope": "user_impersonation" }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/helloworld-webpart.sppkg"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1-pr.1",
+    "libraryName": "helloworld-webpart",
+    "libraryId": "e4e62bcc-612d-4980-ad66-715d1c407e9a",
+    "environment": "spo"
+  }
+}
